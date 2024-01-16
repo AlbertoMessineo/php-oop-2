@@ -5,8 +5,10 @@ class product {
 
     public function __construct($_name , $_type)
     {
-       $this->$name =$_name;
-       $this->$type =$_type;
+       $this->name =$_name;
+       $this->type =$_type;
     }
     }
-
+class food extends product {
+    public $name = 'croccantini';
+}
